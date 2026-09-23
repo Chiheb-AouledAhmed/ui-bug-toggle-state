@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Account Settings</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">Nimbus</div>
+  <nav class="nav"><a href="#">Dashboard</a><a href="#">Settings</a></nav>
+</header>
+<main class="content">
+  <h1>Settings</h1>
+  <div class="setting-row">
+    <span>Email notifications</span>
+    <button class="toggle" id="tg-email" aria-pressed="false"><span class="toggle-knob"></span></button>
+  </div>
+  <div class="setting-row">
+    <span>Dark mode</span>
+    <button class="toggle" id="tg-dark" aria-pressed="false"><span class="toggle-knob"></span></button>
+  </div>
+  <div class="setting-row">
+    <span>Two-factor authentication</span>
+    <button class="toggle" id="tg-2fa" aria-pressed="false"><span class="toggle-knob"></span></button>
+  </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
